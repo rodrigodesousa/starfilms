@@ -18,6 +18,7 @@ class App extends Component {
       this.setState({films: response.data.results})
     })
   }
+
   componentDidMount(){
     this.getFilms()
   }

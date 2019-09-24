@@ -25,7 +25,7 @@ class CharInfo extends Component {
 			<div className="user-details">
 				<p className="btn btn-danger" onClick={this.close}>Hide Info</p>
 				<ul>
-					<li><h2>Director: {info.director}</h2></li>
+					<li>{info.characters[0]}</li>
 				</ul>
 			</div>
 		)
